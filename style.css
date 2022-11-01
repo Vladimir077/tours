@@ -1,0 +1,90 @@
+body {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+.header {
+   background-image: url(bg2.jpg);
+   background-size: cover;
+   height: 100vh;
+}
+
+.nav-item {
+   color: #fff;
+   text-decoration: none; /*Убрать подчекивание*/
+   margin-right: 86px;
+   font-size: 38px;
+}
+
+.nav-item:hover {
+   color: rgb(16, 140, 156);
+}
+
+.nav-item:last-child {
+   margin-right: 0; /*Чтобы не было отступа с правой стороны*/
+}
+
+.nav {
+   display: flex; /*Сделать ссылки подвижными*/
+   justify-content: center; /* По центру*/
+   padding-top: 34px; /*Отступ сверху*/
+}
+
+
+.title {
+   color: #fff;
+   font-size: 86px;
+   width: 1050px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 146px;
+}
+
+.subtitle {
+   color: #fff;
+   font-size: 56px;
+   font-weight: 900;
+   text-align: center;
+   line-height: 44px;
+
+   margin-left: auto;
+   margin-right: auto;
+
+   width: 514px;
+   margin-top: 50px;
+}
+
+.input {
+   width: 447px;
+   height: 67px;
+   font-size: 24px;
+   outline: none; /*Убирает обводку*/
+   padding-left: 95px; /*Номер телефона*/
+   border: 4px #8D8D8D solid;
+   border-radius: 20px;
+}
+
+.forma {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btn {
+   background-color: #5B89CE;
+   padding: 15px 18px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: 700;
+   border: 2px #476443 solid;
+   border-radius: 25px;
+}
+
+.btn:hover {
+   background-color: #112f5e;
+}
+
+.button {
+   text-align: center;
+   margin-top: 25px;
+}
